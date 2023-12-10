@@ -37,17 +37,17 @@ The SQL queries used implement the [SQL Style Guide by Simon Holywell](https://w
 
 ### **Creating tables and loading data**
 
-To start off, we create our four tables using the following SQL query.
+To start off, we create our four tables using the following SQL query in PostgreSQL's *Query Tool*.
 
 ~~~~sql
 -- Creates 'conditions' table --      
-CREATE TABLE conditions (
-       start DATE,
-        stop DATE,
-     patient VARCHAR(1000),
-   encounter VARCHAR(1000),
-        code VARCHAR(1000),
- description VARCHAR(200));
+       CREATE TABLE conditions (
+              start DATE,
+               stop DATE,
+            patient VARCHAR(1000),
+          encounter VARCHAR(1000),
+               code VARCHAR(1000),
+        description VARCHAR(200));
 
 -- Creates 'encounters' table --
              CREATE TABLE encounters (
@@ -67,13 +67,12 @@ base_encounter_cost FLOAT,
         reason_code VARCHAR(100));
 
 -- Creates 'immunizations' table --
-CREATE TABLE immunizations (
-        date TIMESTAMP,
-     patient VARCHAR(100),
-   encounter VARCHAR(100),
-        code INT,
- description VARCHAR(500));
-
+       CREATE TABLE immunizations (
+               date TIMESTAMP,
+            patient VARCHAR(100),
+          encounter VARCHAR(100),
+               code INT,
+        description VARCHAR(500));
 
 -- Creates 'patients' table --
        CREATE TABLE patients (
@@ -108,6 +107,8 @@ healthcare_coverage FLOAT,
 ~~~~
 
 Next, we load our data by importing the corresponding text files (making sure to import as .txt and not .csv) into their respecitve tables direclty in PostgreSQL.
+
+![healthcare_1](https://github.com/sebasquirarte/Healthcare-Data-Analysis/assets/39809366/b6a91249-54e9-4bca-8354-6787b8715481)
 
 # Results
 
