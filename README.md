@@ -1,4 +1,4 @@
-![healthcare_cover](https://github.com/sebasquirarte/Healthcare-Data-Analysis/assets/39809366/9ef27888-a2e8-44ff-9ba1-641d96a87a41)
+![healthcare_cover](https://github.com/sebasquirarte/Healthcare-Data-Analysis/assets/39809366/9863452c-6bd4-420a-9616-aa18097f124c)
 Sebastian Quirarte | sebastianquirajus@gmail.<nolink>com | in/sebastianquirarte | Last Updated: Dic 10 2023
 
 # Objective
