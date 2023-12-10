@@ -23,7 +23,7 @@ The tables that were created from the text files using SQL are as follows:
 _Medical diagnosis of patients registered at hospital, includes code and description, among others. **156,945 rows**._
 
 ### Encounters
-_Medical encounter of patients, includes class, code, description, cost, and coverage, among others.  **455,935 rows**._
+_Medical encounter of patients, includes code, description, cost, and coverage, among others.  **455,935 rows**._
 
 ### Immunizations
 _Applied immunizations, includes code and description, among others. **165,493 rows**._
