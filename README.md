@@ -19,17 +19,10 @@ Healthcare data was originally created with [Synthea™](https://synthetichealth
 
 The tables that were created from the text files using SQL are as follows:
 
-### Conditions
-_Medical diagnosis of patients registered at hospital, includes code and description, among others. **156,945 rows**._
-
-### Encounters
-_Medical encounter of patients, includes code, description, cost, and coverage, among others.  **455,935 rows**._
-
-### Immunizations
-_Applied immunizations, includes code and description, among others. **165,493 rows**._
-
-### Patients
-_Patient data such as birthdate, ssn, name, race, gender, address, among others. **11,363 rows**._
+- **Conditions**: _Medical diagnosis of patients (start/stop date, code, description, ... ). **156,945 rows**._
+- **Encounters**: _Medical encounter of patients (code, description, cost, coverage, ... ). **455,935 rows**._
+- **Immunizations**: _Applied immunizations (code, description, ... ). **165,493 rows**._
+- **Patients**: _Patient data (birthdate, ssn, name, race, gender, address, ... ). **11,363 rows**._
 
 # Overview
 
