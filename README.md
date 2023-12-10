@@ -15,9 +15,9 @@ The aim of this project was to use PosgreSQL to create tables, load healthcare d
 
 # Data
 
-Healthcare data was originally created with [Synthea™](https://synthetichealth.github.io/synthea/), an open-source, synthetic patient generator that models realistic medical history of synthetic patients. Text files were downloaded from [Data Wizardry](https://datawizardry.academy/sql-basics-healthcare/) and this guided projet is based on their YouTube video: ["SQL Basics with Healthcare Data"](https://www.youtube.com/watch?v=ef4CAu-OwvM). 
+Healthcare data was originally created with [Synthea™](https://synthetichealth.github.io/synthea/), an open-source, synthetic patient generator that models realistic medical history of synthetic patients. This projet is based on the YouTube video: ["SQL Basics with Healthcare Data"](https://www.youtube.com/watch?v=ef4CAu-OwvM) by [Data Wizardry](https://www.youtube.com/@DataWizardry) and the text files used to load the data were downloaded from their [website](https://datawizardry.academy/sql-basics-healthcare/).
 
-The tables that will be created from the text files using SQL are as follows:
+The tables that were created from the text files using SQL are as follows:
 
 ### Conditions
 _Medical diagnosis of patients registered at hospital, includes code and description, among others. **156,945 rows**._
@@ -106,6 +106,8 @@ healthcare_coverage FLOAT,
              income INT,
                 mrn INT);
 ~~~~
+
+Next, we load our data by importing the corresponding text files (making sure to import as .txt and not .csv) into their respecitve tables direclty in PostgreSQL.
 
 # Results
 
